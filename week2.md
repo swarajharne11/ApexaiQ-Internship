@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Week 1"
+title: "Week 2"
 ---
 
 # Internship Documentation — Week 2
