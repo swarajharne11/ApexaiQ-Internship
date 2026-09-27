@@ -109,7 +109,7 @@ finally:
 ```
 The `try` block holds the risky code, `except` catches specific problems, and `finally` runs no matter what — success or failure — which makes it perfect for cleanup tasks.
 
-## 10. A Few Extra Concepts Worth Knowing
+## 7. A Few Extra Concepts Worth Knowing
 
 - **SDLC (Software Development Life Cycle)** — the overall roadmap for building software: plan, design, build, test, deploy, and maintain
 - **Agile** — an iterative way of managing projects that focuses on delivering value in small, frequent steps rather than one big release
