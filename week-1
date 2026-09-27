@@ -1,0 +1,147 @@
+# Internship Documentation — Week 1
+
+**Intern:** Swaraj Anil Harne
+**Branch:** Computer Science and Engineering (3rd Year)
+**Focus Area:** ApexaiQ — IT Asset Management & Cyber Risk Platform
+
+---
+
+## 1. Overview of the Week
+
+Week 1 of the internship was focused on **research and product understanding** rather than hands-on technical work. The goal was to build a solid foundation before touching any code or tooling, so the first few days were spent studying **ApexaiQ** — the product I'll be working with throughout this internship.
+
+By the end of the week, I had a clear picture of:
+- What problem ApexaiQ actually solves for businesses
+- Why IT Asset Management (ITAM) is such a critical practice
+- How ApexaiQ compares to well-known competitors in the market
+- Why ApexaiQ's "agentless" approach is a major selling point
+- The most common ways real-world cyberattacks happen
+- Exactly how data moves through the ApexaiQ system, from collection to dashboard to feedback loop
+
+This document summarizes those learnings in simple, easy-to-follow language.
+
+---
+
+## 2. What is ApexaiQ?
+
+ApexaiQ is an **automated IT asset management and cyber risk assurance platform**. It exists to solve a very common but very dangerous problem: most organizations simply don't have full visibility into their own technology.
+
+In a typical company, IT teams are responsible for thousands of connected devices, cloud workloads, and software licenses — often tracked using outdated spreadsheets or scattered tools. This creates blind spots such as:
+- **Shadow IT** — devices or software being used without the IT team's knowledge
+- **Expired warranties** on hardware that no one is tracking
+- **Unpatched systems** that quietly become open doors for attackers
+
+ApexaiQ fixes this by **continuously discovering and cataloging every hardware and software asset in real time**, replacing manual tracking entirely. It then evaluates the overall health and security posture of the whole environment and expresses it as a single, easy-to-understand **ApexaiQ Score**, ranging from **60 to 160** — similar to how a credit score summarizes financial health.
+
+This score gives IT leaders a clear, prioritized roadmap: fix the most dangerous vulnerabilities and outdated technology first, before they turn into a security breach or costly downtime.
+
+At its core, ApexaiQ's mission comes down to three simple promises:
+- Keep an **inventory that's clean and fully auditable**, so nothing is ever a mystery
+- Help teams **focus on what actually matters**, instead of drowning in noise
+- **Watch your exposure closely** — flag the real risks early enough to act on them
+
+## 3. Why IT Asset Management (ITAM) Matters
+
+**IT Asset Management (ITAM)** is the practice of keeping track of every piece of technology a company owns — laptops, servers, software programs, and cloud tools — from the moment it's purchased until the day it's retired.
+
+Without proper ITAM, organizations commonly run into problems such as:
+- Paying for software licenses that nobody is actually using
+- Buying extra hardware they didn't really need
+- Leaving outdated or forgotten devices completely unprotected against hackers
+
+In short, ITAM gives a company a clear, honest picture of **what technology it has, who is using it, and whether it's safe and properly accounted for.** It's the foundation that everything else — security, budgeting, and compliance — is built on top of.
+
+**What good ITAM actually delivers:**
+- Squeezes more value out of existing tech and cuts down on waste
+- Keeps things running reliably without slowing teams down
+- Catches overprovisioned resources and idle instances before they quietly rack up costs
+
+**How the process typically flows:**
+Building an inventory → working out the true lifecycle cost of each asset → tracking it over time → keeping it maintained → and finally, folding all of that into financial planning. It's less a one-time project and more an ongoing cycle.
+
+## 4. How ApexaiQ Stands Out From Competitors
+
+The IT asset management space already has several established players, but each one focuses on a different slice of the problem:
+
+| Competitor | What They Focus On |
+|---|---|
+| **ServiceNow** | A massive enterprise platform built around full IT service workflows, ticketing, change management, and software license compliance. |
+| **ManageEngine** | A broad, all-in-one IT management suite covering ITSM, endpoint/patch management, network monitoring, and asset management. |
+| **Flexera** | Focuses heavily on complex Software Asset Management (SAM), license auditing, and multi-cloud cost optimization. |
+| **RunZero** | A fast, lightweight network scanner specializing in finding unknown or rogue devices without needing credentials. |
+
+ApexaiQ's differentiator is that it doesn't try to be a massive ticketing or workflow system like ServiceNow, nor is it just a scanner like RunZero. It combines **continuous asset discovery + automated security scoring + a fully agentless setup** into one lightweight, easy-to-adopt platform — giving smaller and mid-sized IT teams enterprise-level visibility without enterprise-level complexity.
+
+Beyond the bigger, well-known names, the space also has a handful of smaller, more specialized rivals worth knowing — names like **Quod Orbis, Vicarius, Bionic, Nanitor, CloudWize,** and **SMI** each chip away at a narrower piece of the asset-visibility or exposure-management puzzle rather than covering the full picture the way ApexaiQ aims to.
+
+## 5. Agentless Design — Why It's a Big Deal
+
+One of ApexaiQ's most important architectural decisions is being **agentless**. Instead of installing special software ("an agent") on every single computer, phone, and server, it connects directly to the cloud services, network equipment, and security tools an organization already uses to pull the data it needs.
+
+This design choice matters for several reasons:
+- **Fast deployment** — setup takes hours instead of the months typically needed for agent-based rollouts
+- **No performance impact** — devices don't slow down from running extra background processes
+- **Complete coverage** — it can discover and track devices where agents simply *cannot* be installed, such as routers, printers, security cameras, and smart TVs, so nothing hides in the network
+
+This agentless approach is a big reason ApexaiQ can be adopted quickly, without the friction of a traditional enterprise software rollout.
+
+## 6. Key Cybersecurity Research Findings
+
+Part of this week's research also covered the modern attack surface — essentially, *how* real-world cyberattacks actually happen today. A few findings stood out as especially important context for why a product like ApexaiQ exists:
+
+- **Exploitation of known fundamentals:** Over 95% of breaches happen through old, unpatched bugs and misconfigured settings — not clever new hacking techniques. This makes basic cyber hygiene the strongest line of defense a company has.
+- **Shrinking attack timelines:** Once hackers break into one device, it takes them under 2 hours on average to spread across an entire network — faster than most security teams can detect and stop manually.
+- **Identity-driven attacks:** Stolen passwords, unused accounts, and unmonitored access permissions have become the most common way attackers get in — now more common than traditional viruses or malware.
+
+The common thread across all three findings is **visibility and hygiene**. Most breaches aren't the result of sophisticated new attacks — they happen because organizations don't know what's on their network, what's outdated, or who still has access. This is exactly the gap ApexaiQ is built to close.
+
+## 7. Important Terms I Learned This Week
+
+To properly understand ApexaiQ and the problem space, I also went through a set of foundational terms. A few of the most relevant ones:
+
+- **Vulnerabilities** — Weaknesses or coding flaws in software/hardware that attackers can exploit.
+- **Obsolescence** — Technology too old or discontinued to receive security updates.
+- **EOL / EOS / EOM** — Milestones in a product's retirement: EOM stops routine bug fixes, EOS stops customer support, and EOL stops all security patches entirely.
+- **Compliance** — Following standards like HIPAA, ISO 27001, and SOC 2 to keep data safe and avoid fines.
+- **Crown Jewels** — A company's most essential systems/data, like customer databases, that would seriously harm the business if compromised.
+- **CAASM** — Security platforms that connect via APIs to all existing IT tools to give one complete picture of every asset.
+- **Zero Trust** — The security model of "never trust, always verify," where network access is blocked unless a device is confirmed authorized and secure.
+- **Auto-Remediation** — Automated actions (like disconnecting an infected laptop) that fix security issues instantly without waiting for a human.
+- **Accelerator** — A ready-made tool or code component that takes care of repetitive, common tasks, so developers can spend their time on the parts of a project that actually add unique value.
+- **Audit** — An independent, methodical check of a company's records or systems to confirm they actually meet the rules or standards they're supposed to.
+- **Crawl Job** — A task handed to an automated "crawler" that systematically browses a network or the web to discover and index what's out there.
+- **MDM (Master Data Management)** — A central hub that cleans up and standardizes an organization's core data, so every team is working off the same accurate version instead of conflicting copies.
+- **SOAR in action (a quick example):** a phishing email gets flagged → the platform automatically pulls context on the sender and scans the attachment → it then deletes similar emails from every inbox, blocks the sender, and blacklists the malicious link → finally, it logs everything into a ticket for a human analyst to review and close out.
+
+These terms come up constantly across the product documentation and will likely be useful vocabulary for the rest of the internship.
+
+---
+
+## 8. ApexaiQ Data Flow — How Information Moves Through the System
+
+Below is the workflow I studied showing how data travels from a company's internal network all the way to the ApexaiQ dashboard and back out again.
+
+![ApexaiQ Data Flow](apexaiq-data-flow.jpeg)
+
+**Step-by-step breakdown:**
+
+1. **Security Tools ↔ ApexaiQ Collector** — Existing security tools inside the client's network exchange data with the ApexaiQ Collector using an **Accelerator** (push) and **Integration** (pull) connection.
+2. **Raw Feed** — The Collector sends this unprocessed data out through the firewall as a "Raw Feed."
+3. **Pre Feed Rules (Automatic)** — Before the data enters the dashboard, automatic rules clean and filter it.
+4. **ApexaiQ Dashboard (SaaS)** — The core cloud platform where all asset data is centralized, scored, and analyzed.
+5. **Post Feed Rules (Automatic)** — Once processed, the data is filtered again before being distributed.
+6. **Output Categories** — The processed feed is routed into three views: **Devices**, **Users**, and **Software**.
+7. **Enrich Rules** — Clients can feed their own input back in to enrich and customize how devices are read.
+8. **Integration Loop** — Finally, insights flow back into the client's own security tools, closing the loop between detection and action.
+
+In short: **raw data goes in → gets cleaned and scored → comes out as organized, actionable insight → and feeds back into the client's own tools.**
+
+What makes this flow elegant is that it's a **closed loop, not a one-way pipe**. The client's own security tools both feed data in (Accelerator/Integration) and receive enriched insight back out (step 9), meaning ApexaiQ doesn't just observe a network — it actively improves the tools already in place.
+
+---
+
+## 9. Key Takeaway from Week 1
+
+ApexaiQ isn't just a monitoring tool — it's a **closed feedback loop** that turns messy, scattered network data into a clear risk score and actionable insight, without ever touching individual devices directly through invasive agents.
+
+Understanding this end-to-end flow — from raw feed, through automatic filtering rules, into the dashboard, and back out as enriched insight — gives me a strong foundation for the more technical, hands-on work planned for the coming weeks.
