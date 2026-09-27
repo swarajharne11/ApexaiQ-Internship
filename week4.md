@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Week 3"
+---
+
 # Linux Architecture, DevOps Basics, and Docker Containerization
 
 ---
