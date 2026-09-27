@@ -5,7 +5,7 @@ title: "Internship Documentation"
 
 # Internship Documentation
 
-**Intern:** Swaraj Anil Harne  
+**Intern:** Swaraj Anil Harne
 **Branch:** Computer Science and Engineering (3rd Year)
 
 A week-by-week log of my internship — covering product research, web development fundamentals, backend programming, and DevOps practices.
@@ -14,16 +14,16 @@ A week-by-week log of my internship — covering product research, web developme
 
 ## Weekly Log
 
-- [Week 1 — ApexaiQ Product & Data Flow](week1.md)  
+- [Week 1 — ApexaiQ Product & Data Flow](./week1-documentation.md)
   Understanding what ApexaiQ does, IT Asset Management (ITAM), competitor landscape, the agentless architecture, and how data flows through the platform end-to-end.
 
-- [Week 2 — Introduction to JavaScript](week2.md)  
-  Core JavaScript concepts — variables, control flow, functions, arrays/objects, the DOM, event handling, callbacks, promises, async/await, and closures.
-
-- [Week 3 — Python Fundamentals](week3.md)  
+- [Week 2 — Python Fundamentals](./week2-documentation.md)
   Python basics, control flow, functions and decorators, OOP, exception handling, packages and virtual environments, coding standards, and API concepts.
 
-- [Week 4 — DevOps & Docker](week4.md)  
+- [Week 3 — Introduction to JavaScript](./week3-documentation.md)
+  Core JavaScript concepts — variables, control flow, functions, arrays/objects, the DOM, event handling, callbacks, promises, async/await, and closures.
+
+- [Week 4 — DevOps & Docker](./week4-documentation.md)
   Introduction to DevOps practices and containerization with Docker.
 
 ---
