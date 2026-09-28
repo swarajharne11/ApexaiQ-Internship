@@ -29,40 +29,24 @@ This document summarizes those learnings in simple, easy-to-follow language.
 
 ## 2. What is ApexaiQ?
 
-ApexaiQ is an **automated IT asset management and cyber risk assurance platform**. It exists to solve a very common but very dangerous problem: most organizations simply don't have full visibility into their own technology.
-
-In a typical company, IT teams are responsible for thousands of connected devices, cloud workloads, and software licenses — often tracked using outdated spreadsheets or scattered tools. This creates blind spots such as:
-- **Shadow IT** — devices or software being used without the IT team's knowledge
-- **Expired warranties** on hardware that no one is tracking
-- **Unpatched systems** that quietly become open doors for attackers
-
-ApexaiQ fixes this by **continuously discovering and cataloging every hardware and software asset in real time**, replacing manual tracking entirely. It then evaluates the overall health and security posture of the whole environment and expresses it as a single, easy-to-understand **ApexaiQ Score**, ranging from **60 to 160** — similar to how a credit score summarizes financial health.
-
-This score gives IT leaders a clear, prioritized roadmap: fix the most dangerous vulnerabilities and outdated technology first, before they turn into a security breach or costly downtime.
-
-At its core, ApexaiQ's mission comes down to three simple promises:
-- Keep an **inventory that's clean and fully auditable**, so nothing is ever a mystery
-- Help teams **focus on what actually matters**, instead of drowning in noise
-- **Watch your exposure closely** — flag the real risks early enough to act on them
+Apexa iQ is an automated IT asset management and cyber risk assurance platform designed to solve the
+critical blind spots modern organizations face. In many companies, IT teams struggle to track thousands of
+connected devices, cloud workloads, and software licenses, leading to "shadow IT," expired warranties, and
+unpatched systems that expose the network to cyberattacks. Apexa iQ fixes this by continuously discovering
+and cataloging every hardware and software asset in real time, eliminating outdated manual spreadsheets. It
+then evaluates the overall hygiene and security posture of the entire environment, scoring it much like a credit
+rating or IQ score (from 60 to 160). This gives IT leaders a clear, prioritized roadmap to fix the most dangerous
+vulnerabilities and obsolete tech before they lead to security breaches or costly system downtime
 
 ## 3. Why IT Asset Management (ITAM) Matters
 
-**IT Asset Management (ITAM)** is the practice of keeping track of every piece of technology a company owns — laptops, servers, software programs, and cloud tools — from the moment it's purchased until the day it's retired.
-
-Without proper ITAM, organizations commonly run into problems such as:
-- Paying for software licenses that nobody is actually using
-- Buying extra hardware they didn't really need
-- Leaving outdated or forgotten devices completely unprotected against hackers
-
-In short, ITAM gives a company a clear, honest picture of **what technology it has, who is using it, and whether it's safe and properly accounted for.** It's the foundation that everything else — security, budgeting, and compliance — is built on top of.
-
-**What good ITAM actually delivers:**
-- Squeezes more value out of existing tech and cuts down on waste
-- Keeps things running reliably without slowing teams down
-- Catches overprovisioned resources and idle instances before they quietly rack up costs
-
-**How the process typically flows:**
-Building an inventory → working out the true lifecycle cost of each asset → tracking it over time → keeping it maintained → and finally, folding all of that into financial planning. It's less a one-time project and more an ongoing cycle.
+IT Asset Management (ITAM) is the practice of keeping track of all the technology a company owns—
+such as laptops, servers, software programs, and cloud tools—from the moment they are bought until they are
+retired.
+Organizations need it to keep their technology organized, secure, and cost-effective. Without it, companies
+often waste money paying for software licenses nobody is using, buy extra hardware they don't actually need,
+and leave outdated or forgotten devices unprotected against hackers. In short, ITAM gives companies a clear
+picture of what tech they have, who is using it, and whether it is safe and properly paid for.
 
 ## 4. How ApexaiQ Stands Out From Competitors
 
@@ -81,14 +65,16 @@ Beyond the bigger, well-known names, the space also has a handful of smaller, mo
 
 ## 5. Agentless Design — Why It's a Big Deal
 
-One of ApexaiQ's most important architectural decisions is being **agentless**. Instead of installing special software ("an agent") on every single computer, phone, and server, it connects directly to the cloud services, network equipment, and security tools an organization already uses to pull the data it needs.
-
-This design choice matters for several reasons:
-- **Fast deployment** — setup takes hours instead of the months typically needed for agent-based rollouts
-- **No performance impact** — devices don't slow down from running extra background processes
-- **Complete coverage** — it can discover and track devices where agents simply *cannot* be installed, such as routers, printers, security cameras, and smart TVs, so nothing hides in the network
-
-This agentless approach is a big reason ApexaiQ can be adopted quickly, without the friction of a traditional enterprise software rollout.
+Apexa iQ is an agentless platform because it monitors your entire
+network without forcing you to install special software (called an "agent")
+onto every single computer, phone, and server you own. Instead, it simply
+talks directly to the cloud services, network equipment, and security tools
+you already use to gather the necessary data. This makes setup fast and
+hassle-free—taking hours instead of months—while ensuring computers
+don't slow down from running extra background programs. Crucially,
+going agentless allows Apexa iQ to find and track devices where you
+cannot install software anyway, such as office routers, printers, security
+cameras, and smart TVs, ensuring no hidden device gets left behind.
 
 ## 6. Key Cybersecurity Research Findings
 
